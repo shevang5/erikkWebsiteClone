@@ -1,0 +1,489 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+main {
+  padding: 20px 1.5rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+main .heroText {
+  width: 100%;
+}
+main .heroText img {
+  width: 100%;
+}
+main .heroText .heroC {
+  padding: 10px 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  font-size: small;
+}
+main .imgText img {
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+main .imgText .text1 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px 0;
+}
+main .imgText .text1 h1 {
+  font-size: 3em;
+  line-height: 1em;
+  font-weight: 350;
+  text-transform: uppercase;
+}
+main .imgText .text1 p {
+  font-size: 1.2em;
+  font-weight: 500;
+}
+main .imgText .bottom1 {
+  padding: 30px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+main .imgText .bottom1 h4 {
+  font-size: 1.5em;
+  font-weight: 500;
+}
+main .imgText .bottom1 .table {
+  font-weight: 500;
+  display: flex;
+  justify-content: space-between;
+}
+main .about {
+  width: 100%;
+}
+main .about .aboutImg {
+  padding: 10px 0 50px 0;
+}
+main .about .aboutImg img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  aspect-ratio: 1/1;
+}
+main .about .about-text {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+}
+main .about .about-text .virticalText {
+  writing-mode: vertical-lr;
+}
+main .about .about-textM h1 {
+  font-size: 3.4em;
+  font-weight: 450;
+  line-height: 50px;
+  padding-bottom: 20px;
+}
+main .about .about-textM p {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.4em;
+  opacity: 70%;
+}
+main .ourServices {
+  width: 100%;
+}
+main .ourServices .servicesImg {
+  padding: 50px 0;
+}
+main .ourServices .servicesImg img {
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+main .ourServices h1 {
+  font-size: 3em;
+  font-weight: 450;
+  text-transform: uppercase;
+  padding: 3rem 0;
+}
+main .ourServices .links {
+  display: flex;
+}
+main .ourServices .links p {
+  margin: 10px;
+}
+main .ourServices .links img {
+  width: 35px;
+  height: 35px;
+}
+main .ourServices .C1squares {
+  display: flex;
+  gap: 1.5em;
+  flex-direction: column;
+  padding: 10px 0;
+}
+main .ourServices .C1squares h2 {
+  font-size: 2em;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+main .selectWork .azure2 {
+  display: none;
+}
+main .selectWork .azure {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+main .selectWork .selectImg {
+  width: 100%;
+}
+main .selectWork .selectImg img {
+  padding: 30px 0;
+  width: 100%;
+}
+main .selectWork .azureC {
+  width: 100%;
+}
+main .selectWork #azureR {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 40px;
+}
+main .selectWork .Alinks {
+  padding: 40px 0;
+  display: flex;
+}
+main .selectWork .Alinks img {
+  width: 35px;
+  height: 35px;
+}
+main .selectWork .Alinks p {
+  margin: 10px;
+}
+main .clients {
+  width: 100%;
+}
+main .clients img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  padding: 20px 0;
+}
+main .clients .mainLeft {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+main .clients .mainLeft p {
+  padding: 10px 0;
+}
+main .team {
+  width: 100%;
+  padding: 20px 0;
+}
+main .team h1 {
+  font-size: 3em;
+  font-weight: 450;
+  text-transform: uppercase;
+  padding: 10px 0;
+}
+main .team p {
+  font-size: 1.5em;
+  font-family: "Courier New", Courier, monospace;
+}
+main .team .teamMembers {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px 0;
+}
+main .team .teamMembers .member {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+main .team .teamMembers .member h2 {
+  font-size: 2em;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+main .team .teamMembers .memberImg {
+  width: 100%;
+}
+main .team .teamMembers .post {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Ensures vertical alignment */
+  padding: 10px; /* Add some spacing */
+}
+main .team .teamMembers .post p {
+  font-size: 20px;
+  margin: 0; /* Removes default margin */
+}
+main .team .teamMembers .post .icons {
+  display: flex;
+  gap: 10px; /* Adds spacing between icons */
+}
+main .team .teamMembers .post .icons img {
+  width: 24px; /* Adjust icon size */
+  height: 24px;
+}
+
+@media (min-width: 900px) {
+  main {
+    padding: 2rem 4rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+  main .imgText {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 4rem;
+  }
+  main .imgText img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  main .imgText .textMain {
+    width: 55%;
+  }
+  main .imgText .textMain .text1 {
+    font-size: 1.5em;
+  }
+  main .about {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+  }
+  main .about .aboutImg {
+    width: 42%;
+    height: 85vh;
+  }
+  main .about .aboutImg img {
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: 100%;
+  }
+  main .about .about-text {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 20px;
+  }
+  main .about .about-text .virticalText {
+    writing-mode: vertical-lr;
+    padding-top: 3rem;
+  }
+  main .about .about-textM h1 {
+    font-size: 6.5em;
+    font-weight: 200;
+    line-height: 100px;
+    padding: 3rem;
+  }
+  main .about .about-textM p {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 1.4em;
+    opacity: 70%;
+    padding: 3rem;
+  }
+  main .ourServices {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 40px;
+  }
+  main .ourServices .Cservice {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 3rem 0;
+  }
+  main .ourServices .Cservice h1 {
+    font-size: 5.9em;
+    font-weight: 400;
+    line-height: 100px;
+    text-transform: uppercase;
+    padding: 0;
+  }
+  main .ourServices .Cservice h2 {
+    font-size: 1.4em;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 0;
+  }
+  main .ourServices .Cservice .links img {
+    width: 35px;
+    height: 35px;
+  }
+  main .ourServices .servicesImg {
+    width: 50%;
+  }
+  main .ourServices .servicesImg img {
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: 100vh;
+    width: 100%;
+    padding: 0;
+  }
+  main .ourServices .C1 {
+    display: flex;
+    gap: 50px;
+  }
+  main .selectWork .azure {
+    margin-top: 3rem;
+    width: 100;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+  }
+  main .selectWork .azure .azureC {
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  main .selectWork .azure hr {
+    display: none;
+  }
+  main .selectWork .selectImg img {
+    padding: 30px 0;
+  }
+  main .selectWork #azureR {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+  }
+  main .selectWork #azureR h2 {
+    font-size: 3.5em;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 0;
+  }
+  main .selectWork .Alinks {
+    position: absolute;
+    bottom: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+  }
+  main .selectWork .Alinks img {
+    width: 35px;
+    height: 35px;
+  }
+  main .selectWork .Alinks p {
+    margin: 10px;
+  }
+  main .selectWork .azure2 {
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+    width: 100;
+    height: 50vh;
+  }
+  main .selectWork .azure2 hr {
+    display: none;
+  }
+  main .selectWork .azure2 .azureC {
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  main .selectWork .azure2 .asureR h2 {
+    font-size: 4.4em;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 0;
+  }
+  main .clients {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+  }
+  main .clients img {
+    width: 30%;
+  }
+  main .clients .mainLeft {
+    width: 65%;
+  }
+  main .clients .mainLeft .City {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  main .clients .mainLeft .City .cityc {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+  main .team {
+    width: 100%;
+    padding: 20px 0;
+  }
+  main .team .teamC {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  main .team h1 {
+    font-size: 3em;
+    font-weight: 450;
+    text-transform: uppercase;
+    padding: 10px 0;
+  }
+  main .team p {
+    width: 50%;
+    font-size: 1.5em;
+    font-family: "Courier New", Courier, monospace;
+  }
+  main .team .teamMembers {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+  }
+  main .team .teamMembers h2 {
+    font-size: 1.8em;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 10px 0;
+  }
+  main .team .teamMembers .member {
+    height: 100%;
+  }
+  main .team .teamMembers .member img {
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: 100%;
+    padding: 0;
+  }
+  main .team .teamMembers .member .field {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 14px;
+  }
+  main .team .teamMembers .member .memberP {
+    padding: 0;
+    width: 100%;
+    font-size: 15px;
+  }
+}/*# sourceMappingURL=style.css.map */

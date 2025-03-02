@@ -1,0 +1,554 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+main {
+  padding: 20px 1.5rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  .heroText {
+    width: 100%;
+    img {
+      width: 100%;
+    }
+    .heroC {
+      padding: 10px 0;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      text-transform: uppercase;
+      font-size: small;
+    }
+  }
+  .imgText {
+    img {
+      width: 100%;
+      aspect-ratio: 1/1;
+    }
+    .text1 {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      padding: 10px 0;
+      h1 {
+        font-size: 3em;
+        line-height: 1em;
+        font-weight: 350;
+        text-transform: uppercase;
+      }
+      p {
+        font-size: 1.2em;
+        font-weight: 500;
+      }
+    }
+    .bottom1 {
+      padding: 30px 0;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      h4 {
+        font-size: 1.5em;
+        font-weight: 500;
+      }
+      .table {
+        font-weight: 500;
+        display: flex;
+        justify-content: space-between;
+      }
+    }
+  }
+  .about {
+    width: 100%;
+    .aboutImg {
+      img {
+        width: 100%;
+        object-fit: cover;
+        aspect-ratio: 1/1;
+      }
+      padding: 10px 0 50px 0;
+    }
+    .about-text {
+      width: 100%;
+      display: flex;
+      gap: 20px;
+
+      .virticalText {
+        writing-mode: vertical-lr;
+      }
+    }
+    .about-textM {
+      h1 {
+        font-size: 3.4em;
+        font-weight: 450;
+        line-height: 50px;
+        padding-bottom: 20px;
+      }
+      p {
+        font-family: "Courier New", Courier, monospace;
+        font-size: 1.4em;
+        opacity: 70%;
+      }
+    }
+  }
+  .ourServices {
+    width: 100%;
+    .servicesImg {
+      padding: 50px 0;
+      img {
+        width: 100%;
+        aspect-ratio: 1/1;
+      }
+    }
+    h1 {
+      font-size: 3em;
+      font-weight: 450;
+      text-transform: uppercase;
+      padding: 3rem 0;
+    }
+    .links {
+      display: flex;
+      // background: #8a8a8a;
+      p {
+        margin: 10px;
+      }
+      img {
+        width: 35px;
+        height: 35px;
+      }
+    }
+    .C1squares {
+      display: flex;
+      gap: 1.5em;
+      flex-direction: column;
+      padding: 10px 0;
+      h2 {
+        font-size: 2em;
+        font-weight: 400;
+        text-transform: uppercase;
+      }
+    }
+  }
+
+  .selectWork{
+    // background: #000;
+    .azure2{
+        display: none;
+
+    }
+    .azure{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .selectImg{
+        width: 100%;
+        img{
+            padding: 30px 0;
+        width: 100%;
+
+        }
+    }
+    .azureC{
+        width: 100%;
+        
+    }
+    #azureR{
+        width: 100%;
+        // background: #000;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 40px;
+    }
+    .Alinks{
+        // background: #000;
+        padding: 40px 0;
+        display: flex;
+        img {
+            width: 35px;
+            height: 35px;
+          }
+          p {
+            margin: 10px;
+          }
+    }
+
+  }
+  .clients{
+    width: 100%;
+
+    img{
+        object-fit: cover;
+        width: 100%;
+        padding: 20px 0;
+    }
+    .mainLeft{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        p{
+            padding: 10px 0;
+        }
+    }
+  }
+  .team{
+    width: 100%;
+    padding: 20px 0;
+    // display: flex;
+        // flex-direction: row;
+    h1{
+        font-size: 3em;
+        font-weight: 450;
+        text-transform: uppercase;
+        padding: 10px 0;
+    }
+    p{
+        font-size: 1.5em;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    // background: #000;
+    .teamMembers{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        // background: #000;
+        padding: 20px 0;
+        .member{
+            display: flex;
+        flex-direction: column;
+        gap: 10px;
+        h2{
+            font-size: 2em;
+            font-weight: 300;
+            text-transform: uppercase;
+        }
+        }
+        .memberImg{
+        width: 100%;
+        }
+        .post {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center; /* Ensures vertical alignment */
+            padding: 10px; /* Add some spacing */
+          
+            p {
+                font-size: 20px;
+                margin: 0; /* Removes default margin */
+            }
+          
+            .icons {
+                display: flex;
+                gap: 10px; /* Adds spacing between icons */
+                
+                img {
+                    width: 24px; /* Adjust icon size */
+                    height: 24px;
+                }
+            }
+        }
+        
+    }
+  }
+  
+}
+@media (min-width: 900px) {
+  main {
+    padding: 2rem 4rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    .imgText {
+      display: flex;
+      flex-direction: row-reverse;
+      gap: 4rem;
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      .textMain {
+        width: 55%;
+        .text1 {
+          font-size: 1.5em;
+        }
+      }
+    }
+    .about {
+      width: 100%;
+      height: 80vh;
+      display: flex;
+      .aboutImg {
+        width: 42%;
+        height: 85vh;
+        // background-color: aquamarine;
+
+        img {
+          object-fit: cover;
+          height: 100%;
+        }
+      }
+      .about-text {
+        width: 100%;
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 20px;
+
+        .virticalText {
+          writing-mode: vertical-lr;
+          padding-top: 3rem;
+        }
+      }
+      .about-textM {
+        h1 {
+          font-size: 6.5em;
+          font-weight: 200;
+          line-height: 100px;
+          padding: 3rem;
+        }
+        p {
+          font-family: "Courier New", Courier, monospace;
+          font-size: 1.4em;
+          opacity: 70%;
+          padding: 3rem;
+        }
+      }
+    }
+    .ourServices {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      gap: 40px;
+      // background: #000;
+      .Cservice {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 3rem 0;
+        h1 {
+          font-size: 5.9em;
+          font-weight: 400;
+          line-height: 100px;
+          text-transform: uppercase;
+          padding: 0;
+        }
+        h2 {
+          font-size: 1.4em;
+          font-weight: 400;
+
+          text-transform: uppercase;
+          padding: 0;
+        }
+        .links {
+          img {
+            width: 35px;
+            height: 35px;
+          }
+        }
+      }
+      .servicesImg {
+        width: 50%;
+        // height: 100%;
+
+        // padding: 50px 0;
+        img {
+          object-fit: cover;
+          height: 100vh;
+          width: 100%;
+          padding: 0;
+          // aspect-ratio: 1/1;
+        }
+      }
+      .C1 {
+        display: flex;
+        gap: 50px;
+      }
+    }
+    .selectWork{
+        // background: #000;
+        .azure{
+            margin-top: 3rem;
+            width: 100;
+            height: 50vh;
+            display: flex;
+            flex-direction: row;
+            gap: 30px;
+            // background: #000;
+            .azureC{
+                object-fit: cover;
+                // width: 100%;
+                // height: 50%;
+                
+            }
+            hr{
+                display: none;
+            }
+
+        }
+        
+        .selectImg{
+            // width: 100%;
+            img{
+                padding: 30px 0;
+            // width: 100%;
+    
+            }
+        }
+        // .azureC{
+        //     // width: 100%;
+            
+        // }
+        #azureR{
+            h2{
+                font-size: 3.5em;
+                font-weight: 400;
+                text-transform: uppercase;
+                padding: 0;
+            }
+            position: relative;
+            width: 100%;
+            // background: #000;
+            display: flex;
+            flex-direction: column;
+            // justify-content: center;
+            padding: 0px;
+            // background: #ff9898;
+        }
+        .Alinks{
+            position: absolute;
+            bottom: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            img {
+                width: 35px;
+                height: 35px;
+              }
+              p {
+                margin: 10px;
+              }
+        }
+        .azure2{
+            display: flex;
+            gap: 30px;
+            margin-top: 30px;
+            width: 100;
+            height: 50vh;
+            
+            hr{
+                display: none;
+            }
+            .azureC{
+                object-fit: cover;
+                // width: 100%;
+                // height: 50%;
+                
+            }
+            .asureR{
+                h2{
+                    font-size: 4.4em;
+                    font-weight: 400;
+                    text-transform: uppercase;
+                    padding: 0;
+                }
+            }
+
+        }
+    
+      }
+      .clients{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: end;
+        // background: #000;
+        img{
+            width: 30%;
+        }
+        .mainLeft{
+            width: 65%;
+            .City{
+                padding: 10px;
+                display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .cityc{
+                display: flex; 
+                gap: 20px;
+            align-items: center;
+            }
+            }
+        }
+
+      }
+      .team{
+        
+        width: 100%;
+        padding: 20px 0;
+        .teamC{
+            display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        }
+        h1{
+            font-size: 3em;
+            font-weight: 450;
+            text-transform: uppercase;
+            padding: 10px 0;
+        }
+        p{
+        width: 50%;
+
+            font-size: 1.5em;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        // background: #000;
+        .teamMembers{
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            flex-direction: row;
+            gap: 30px;
+            h2{
+                font-size: 1.8em;
+                font-weight: 400;
+                text-transform: uppercase;
+                padding: 10px 0;
+            }
+            .member{
+                height: 100%;
+                img{
+                    object-fit: cover;
+                    height: 100%;
+                    padding: 0;
+                }
+                .field{
+                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                    font-size: 14px;
+                }
+                .memberP{
+                    padding: 0;
+                    width: 100%;
+                    font-size: 15px;
+                }
+            }
+        }
+      }
+  }
+}
