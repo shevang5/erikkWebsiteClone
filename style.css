@@ -237,8 +237,74 @@ main .team .teamMembers .post .icons {
   gap: 10px; /* Adds spacing between icons */
 }
 main .team .teamMembers .post .icons img {
-  width: 24px; /* Adjust icon size */
-  height: 24px;
+  width: 1.3em; /* Adjust icon size */
+  height: 1.3em;
+}
+main .lastDiv {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem 0;
+}
+main .lastDiv .lastDivC {
+  height: 100%;
+  text-transform: uppercase;
+}
+main .lastDiv .lastDivC p {
+  padding: 20px 0;
+}
+main .lastDiv .lastDivC h2 {
+  font-size: 2.5em;
+  font-weight: 400;
+  padding: 0;
+}
+main .lastDiv .lastDivC .Alinks {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+main .lastDiv .lastDivC .Alinks img {
+  width: 1.5em;
+  height: 1.5em;
+}
+
+footer {
+  width: 100%;
+  height: 50vh;
+  background: #000;
+  padding: 20px 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
+  justify-content: center;
+}
+footer img {
+  width: 100%;
+}
+footer p {
+  text-transform: uppercase;
+  font-size: 2.5em;
+  color: #fff;
+  text-align: center;
+  line-height: 40px;
+}
+footer .button {
+  background: #ffffff;
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+footer .button p {
+  color: #000;
+  font-size: 1.7em;
+}
+footer .button img {
+  width: 1.5em;
+  height: 1.5em;
 }
 
 @media (min-width: 900px) {
@@ -485,5 +551,49 @@ main .team .teamMembers .post .icons img {
     padding: 0;
     width: 100%;
     font-size: 15px;
+  }
+  main .lastDiv {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+  }
+  main .lastDiv .lastDivC {
+    width: 50%;
+    height: 100%;
+    text-transform: uppercase;
+  }
+  main .lastDiv .lastDivC p {
+    padding: 20px 0;
+  }
+  main .lastDiv .lastDivC h2 {
+    font-size: 4.5em;
+    font-weight: 400;
+    line-height: 80px;
+    padding: 1.6rem 0;
+  }
+  main .lastDiv .lastDivC .Alinks {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  main .lastDiv .lastDivC .Alinks img {
+    width: 1.5em;
+    height: 1.5em;
+  }
+  footer {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  footer .button {
+    padding: 10px;
+    width: 20%;
+    border-radius: 50px;
   }
 }/*# sourceMappingURL=style.css.map */
